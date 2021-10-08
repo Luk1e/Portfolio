@@ -438,10 +438,7 @@ section:before{
 
 
 
-
-
-  
-  ul {
+ul {
     position:absolute;
     top:120vh;
     bottom:0;
@@ -455,8 +452,28 @@ section:before{
     overflow:hidden;
     box-shadow:1px 1px 3px 1px;
   }
+  @media only screen and (max-height: 700px) {
+        
+    ul {
+      position:absolute;
+      top:160vh;
+      bottom:0;
+      left:0;
+      right:0;
+      margin:auto;
+      list-style:none;
+      width:955px;
+      height:450px;
+      border-radius:3px;
+      overflow:hidden;
+      box-shadow:1px 1px 3px 1px;
+    }
+  }
+
+
+
   
-  
+ 
   li {
     position:relative;
     width:190px;
