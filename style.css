@@ -526,9 +526,9 @@ ul {
   .gallery1{
     position:relative;
     height: 20em;
-    width:20em;
+    width:20rem;
     margin-top: 40em;
-    margin-left: 10em;
+    margin-left: 10rem;
     
   }
   .gallery1:after{
