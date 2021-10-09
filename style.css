@@ -669,12 +669,12 @@ ul {
   @media screen and (max-width:1400px){
     .clipped-border{
       width:calc(250px*5/6);
-      heightcalc(250px*5/6);
+      height:calc(250px*5/6);
     }
     
     .clipped-border:nth-child(2){
       left:calc(118px*5/6);
-	    top:calc(186px*5/6);
+	    top:calc(196px*5/6);
     }
     
     .clipped-border:nth-child(3){
@@ -683,7 +683,7 @@ ul {
     }
      
   .clipped-border:nth-child(4){
-    top:calc(186px*5/6);
+    top:calc(196px*5/6);
     left:calc(353px*5/6);
   }
   
@@ -692,7 +692,7 @@ ul {
     left:calc(470px*5/6);
   }
   .clipped-border:nth-child(6){
-    top:calc(186px*5/6);
+    top:calc(196px*5/6);
     left:calc(587px*5/6);
   }
   .clipped-border:nth-child(7){
@@ -700,7 +700,7 @@ ul {
     left:calc(704px*5/6);
   }
   .clipped-border:nth-child(8){
-    top:calc(186px*5/6);
+    top:calc(196px*5/6);
     left:calc(821px*5/6);
   }
   .clipped-border:nth-child(9){
@@ -708,7 +708,7 @@ ul {
     left:calc(938px*5/6);
   }
   .clipped-border:nth-child(10){
-    top:calc(186px*5/6);
+    top:calc(196px*5/6);
     left:calc(1055px*5/6);
   }
   .clipped-border:nth-child(11){
@@ -717,4 +717,5 @@ ul {
   }
     
   }
+  
   
