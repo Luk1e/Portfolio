@@ -31,14 +31,14 @@
   }
   .text {
     font-family:URW Chancery L, cursive;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bold;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.1em blue;
-    line-height: 1.6em;
-    letter-spacing: 0.3em;
+    line-height: 1.6rem;
+    letter-spacing: 0.3rem;
     color: blue;
-    top: -2em;
-    left:1em;
+    top: -2rem;
+    left:1rem;
     position: relative;
   }
   .text:hover{
@@ -272,8 +272,8 @@ section:before{
   
   .gallery{
     position:relative;
-    height:1em;
-    width:1em;
+    height:1rem;
+    width:1rem;
   }
   
   .gallery:after{
@@ -439,7 +439,7 @@ section:before{
 
 ul {
     position:absolute;
-    top:70em;
+    top:70rem;
     bottom:0;
     left:0;
     right:0;
@@ -525,9 +525,9 @@ ul {
  
   .gallery1{
     position:relative;
-    height: 20em;
+    height: 20rem;
     width:20rem;
-    margin-top: 40em;
+    margin-top: 40rem;
     margin-left: 10rem;
     
   }
