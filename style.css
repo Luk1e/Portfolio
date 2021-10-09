@@ -31,14 +31,14 @@
   }
   .text {
     font-family:URW Chancery L, cursive;
-    font-size: 2vw;
+    font-size: 2em;
     font-weight: bold;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.1em blue;
-    line-height: 2.5vw;
-    letter-spacing: 0.5vw;
+    line-height: 1.6em;
+    letter-spacing: 0.3em;
     color: blue;
-    top: -3.5vw;
-    left:1vw;
+    top: -2em;
+    left:1em;
     position: relative;
   }
   .text:hover{
@@ -265,16 +265,15 @@ section:before{
   
   html,body{
     background:radial-gradient(mistyrose,pink);
-    height:100%;
-    width:100%;
+    height: 100%;
     position:relative;
     overflow:scroll;
   }
   
   .gallery{
     position:relative;
-    height:100%;
-    width:100%;
+    height:1em;
+    width:1em;
   }
   
   .gallery:after{
@@ -440,7 +439,7 @@ section:before{
 
 ul {
     position:absolute;
-    top:120vh;
+    top:70em;
     bottom:0;
     left:0;
     right:0;
@@ -451,23 +450,6 @@ ul {
     border-radius:3px;
     overflow:hidden;
     box-shadow:1px 1px 3px 1px;
-  }
-  @media only screen and (max-height: 700px) {
-        
-    ul {
-      position:absolute;
-      top:160vh;
-      bottom:0;
-      left:0;
-      right:0;
-      margin:auto;
-      list-style:none;
-      width:955px;
-      height:450px;
-      border-radius:3px;
-      overflow:hidden;
-      box-shadow:1px 1px 3px 1px;
-    }
   }
 
 
@@ -543,36 +525,17 @@ ul {
  
   .gallery1{
     position:relative;
-    height:50vh;
-    width:30vw;
-    margin-top: 70vh;
-    margin-left: 10%;
+    height: 20em;
+    width:20rem;
+    margin-top: 40em;
+    margin-left: 10rem;
+    
   }
   .gallery1:after{
     content:'';
   } 
    
-  @media only screen and (max-width: 1280px) {
-    .gallery1{
-        position:relative;
-        height:50vh;
-        width:30vw;
-        margin-top: 70vh;
-        margin-left: 0%;
-      }
-     
- }
 
- @media only screen and (max-height: 950px) {
-    .gallery1{
-        position:relative;
-        height:50vh;
-        width:30vw;
-        margin-top: 75vh;
-        margin-left: 0%;
-      }
-     
- }
 
 
 
