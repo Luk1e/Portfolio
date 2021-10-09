@@ -276,6 +276,7 @@ section:before{
   html,body{
     background:radial-gradient(mistyrose,pink);
     height: 100%;
+width:auto;
     position:relative;
     overflow:scroll;
   }
