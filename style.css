@@ -2,6 +2,16 @@
     padding: 0%;
     margin: 0%;
 }
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
 
   ::selection {
     background: #19f6e8;
@@ -526,9 +536,9 @@ ul {
   .gallery1{
     position:relative;
     height: 20em;
-    width:20rem;
+    width:20em;
     margin-top: 40em;
-    margin-left: 10rem;
+    margin-left: 10em;
     
   }
   .gallery1:after{
