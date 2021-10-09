@@ -41,6 +41,15 @@
     left:25px;
     position: relative;
   }
+@media  screen and (max-height:800px){
+ .text{
+font-size:20px;	 
+	
+	
+	
+	
+	
+}
   .text:hover{
       color:red;
   }
@@ -264,8 +273,6 @@ section:before{
   html,body{
     background:radial-gradient(mistyrose,pink);
     height: 100%;
-    width: auto;
-    width:"#primary";
     position:relative;
     overflow:scroll;
   }
