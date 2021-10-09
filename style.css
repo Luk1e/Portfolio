@@ -43,7 +43,9 @@
   }
 @media  screen and (max-height:800px){
  .text{
-font-size:20px;	 
+font-size:20
+	
+	.px;	 
 	
 	
 	
@@ -534,6 +536,12 @@ ul {
     margin-left: 200px;
     
   }
+  @media screen and (max-height:800px){
+	  .gallery1{
+	margin-top:700px;
+	  }
+	} 
+	
   .gallery1:after{
     content:'';
   } 
