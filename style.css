@@ -273,7 +273,7 @@ section:nth-of-type(1){
   display: none;
   position:fixed;
   right: 1.5%;
-  top:5%;
+  top:7%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
  z-index: 22;
 }
